@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="select_language_items">
+        <item>繁中(zhTW)</item>
+        <item>簡中(zhCN)</item>
+        <item>英文(EN)</item>
+        <item>日文(JP)</item>
+    </string-array>
+    
+    <string-array name="select_share_items">
+        <item>發送 Email</item>
+        <item>發送訊息</item>
+    </string-array>
+
+</resources>

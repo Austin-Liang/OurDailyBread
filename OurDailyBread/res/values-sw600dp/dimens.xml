@@ -1,0 +1,29 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    
+    <dimen name="txtSize_page_Auth">18sp</dimen>
+    <dimen name="txtSize_page_Title">22sp</dimen>
+    <dimen name="txtSize_page_Date">14sp</dimen>
+    <dimen name="txtSize_page_Story">18sp</dimen>
+    
+    <dimen name="txtSize_detail_Title">18sp</dimen>
+    <dimen name="txtSize_detail_Date">14sp</dimen>
+    <dimen name="txtSize_detail_Auth">14sp</dimen>
+    <dimen name="txtSize_detail_rd_title">14sp</dimen>
+    <dimen name="txtSize_detail_rd_text">14sp</dimen>
+    <dimen name="txtSize_detail_annRd_title">14sp</dimen>
+    <dimen name="txtSize_detail_annRd_text">14sp</dimen>
+    <dimen name="txtSize_detail_Story">18sp</dimen>
+    <dimen name="txtSize_detail_Poem">18sp</dimen>
+    <dimen name="txtSize_detail_Thought">18sp</dimen>
+    
+    <integer name="sizeXLarge">28</integer>
+    <integer name="sizeLarge">22</integer>
+    <integer name="sizeMedium">18</integer>
+    <integer name="sizeSmall">14</integer>
+
+</resources>

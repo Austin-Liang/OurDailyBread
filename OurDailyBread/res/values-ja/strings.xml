@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">デイリーブレッド</string>
+    <string name="search_hint">キーワード&#8230;</string>
+    <string name="rd_title">み言葉：</string>
+    <string name="annRd_title">一年で：</string>
+    <string name="media_error">現在メディアは使うことができません&#8230;</string>
+    <string name="share_chooser">ソーシャルメディアを選択してください</string>
+    <string name="about">About</string>
+    <string name="about_msg">&lt;b>《デイリーブレッド》&lt;/b> は RBC Ministries が発行された資料からです。
+        このアプリの資料はすベて RBC Ministries から、ウェブページ中の資料をとって、アプリに現れました。
+        &lt;br>&lt;br>
+        私は《デイリーブレッド》を取ったげと、全然読みませんから、いつも牧師に叱られます。この度きっかけに、このアプリを開発しました。希望は私と同じ問題の友達がこのアブリから、神の恩典とことばを受領できます。</string>
+    <string name="btnText_ok">はい</string>
+    <string name="btnText_cancel">いいえ</string>
+    <string name="btnText_close">閉じる</string>
+    <string name="exitMsg">《デイリーブレッド》を出ます？</string>
+    <string name="plzChoose">選んでください</string>
+    <string name="no_more_data">新しいデートなし！</string>
+    <string name="data_updated">アップデートしまいました！</string>
+    <string name="dialog_title">少し待ってください</string>
+    <string name="dialog_msg">更新をチェック中&#8230;</string>
+    <string name="dialog_no_wifi_title">ネットワーク接続に失敗しました！</string>
+    <string name="dialog_no_wifi_msg">wifi 或いは 3G を使ってください！</string>
+    <string name="dialog_no_wifi_btnText">設定</string>
+    <string name="dialog_no_internet_title">おっ-と！</string>
+    <string name="dialog_no_internet_msg">ネットワーク状態を確認して、再度お試しください。</string>
+    <string name="internet_is_not_ready">ネットワーク接続はまだです！</string>
+    <string name="connection_interrupted">アップデートに失敗しましたが、再度お試しください！</string>
+    <string name="empty_data">Empty !</string>
+    <string name="read_more">&#8230;&lt;さらに></string>
+    <string name="read_more_at">続きを読む：</string>
+    <string name="menu_lastMonth">先月</string>
+    <string name="menu_nextMonth">来月</string>
+    <string name="menu_setting">設定</string>
+    <string name="menu_language">言語</string>
+    <string name="menu_appGuide">ユーザーガイド</string>
+    <string name="menu_about">About</string>
+    <string name="send_from">送り先</string>
+    <string name="like_app">いいね！</string>
+    <string name="pick_date">お好きな日を選んでください！</string>
+    
+    <string name="guide_refresh_title">アップデートボタン</string>
+    <string name="guide_refresh_message">押すと、すぐにデータの更新をチェックします。</string>
+    <string name="guide_search_title">検索ボタン</string>
+    <string name="guide_search_message">記事のタイトル、作者や本文の内容、キーワードで検索する。</string>
+    <string name="guide_appIcon_title">アプリアイコンボタン</string>
+    <string name="guide_appIcon_message">押すと、メニューをスライド出し、様々なファンクションを利用することができる。</string>
+    <string name="guide_calendar_title">カレンダージェスチャー</string>
+    <string name="guide_calendar_message">サークルの内側に右から左へスライドすると、カレンダーを呼び出す。お好きな日を選んで、快適にフリップすることができる。</string>
+    <string name="guide_flip_title">フリップジェスチャー</string>
+    <string name="guide_flip_message">サークルの内側に下から上へ(或いは上から下へ)スライドすると、フリップすることができる。</string>
+    
+    <string name="fontSize_test_text">アイルランドのゴールウェイにある聖ニコラス教会は、長い歴史を持ち、現在も生き生きと活動する教会です。アイルランドで一番古いその教会は、ある実用的な役割も果たしてきました。教会堂は市街地にそびえ立ち、その尖塔はゴールウェイ港に船を安全に導く目印として用いられています。この教会は何世紀もの間&#8230;</string>
+
+</resources>

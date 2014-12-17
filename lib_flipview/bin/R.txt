@@ -1,0 +1,14 @@
+int attr orientation 0x7f010000
+int attr overFlipMode 0x7f010001
+int bool isTablet 0x7f040000
+int drawable ic_launcher 0x7f020000
+int id glow 0x7f030002
+int id horizontal 0x7f030001
+int id rubber_band 0x7f030003
+int id vertical 0x7f030000
+int string screenSize 0x7f050000
+int style AppBaseTheme 0x7f060000
+int style AppTheme 0x7f060001
+int[] styleable FlipView { 0x7f010000, 0x7f010001 }
+int styleable FlipView_orientation 0
+int styleable FlipView_overFlipMode 1

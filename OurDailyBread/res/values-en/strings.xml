@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Our Daily Bread</string>
+    <string name="search_hint">Keywords&#8230;</string>
+    <string name="rd_title">Read : </string>
+    <string name="annRd_title">Year : </string>
+    <string name="media_error">Media is Currently Unavailable&#8230;</string>
+    <string name="share_chooser">Our Daily Bread - Choose to Share</string>
+    <string name="about">About</string>
+    <string name="about_msg">&lt;b>&lt; Our Daily Bread >&lt;/b> is published and distributed by RBC Ministries.
+        All spiritual information resources in this app is from and owned by RBC Ministries. This app simply captures information from website and present on mobile devices.
+        &lt;br>&lt;br>
+        Often sermoned by the pastor/priest for not reading Daily Bread became an opportunity for me to make this app. I hope people under same circumstance like mine could accept the Heavenly grace and words via this app.</string>
+    <string name="btnText_ok">OK</string>
+    <string name="btnText_cancel">Cancel</string>
+    <string name="btnText_close">Close</string>
+    <string name="exitMsg">Exit《Our Daily Bread 》?</string>
+    <string name="plzChoose">Please Choose</string>
+    <string name="no_more_data">No more data !</string>
+    <string name="data_updated">Data updated !</string>
+    <string name="dialog_title">Please Wait</string>
+    <string name="dialog_msg">Updating&#8230;</string>
+    <string name="dialog_no_wifi_title">Internet Unavailable !</string>
+    <string name="dialog_no_wifi_msg">Please use wifi or connect to 3G internet !</string>
+    <string name="dialog_no_wifi_btnText">Setting</string>
+    <string name="dialog_no_internet_title">Oops !</string>
+    <string name="dialog_no_internet_msg">Please check Internet connection and restart application again.</string>
+    <string name="internet_is_not_ready">Internet is not ready !</string>
+    <string name="connection_interrupted">Connection interrupted ! Please retry later.</string>
+    <string name="empty_data">Empty !</string>
+    <string name="read_more">&#8230;&lt;more></string>
+    <string name="read_more_at">Read more at : </string>
+    <string name="menu_lastMonth">Last Month</string>
+    <string name="menu_nextMonth">Next Month</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_language">Languages</string>
+    <string name="menu_appGuide">User Guide</string>
+    <string name="menu_about">About</string>
+    <string name="send_from">Send From</string>
+    <string name="like_app">Like !</string>
+    <string name="pick_date">Please pick a day !</string>
+    
+    <string name="guide_refresh_title">Refresh button</string>
+    <string name="guide_refresh_message">Press this button will check data update immediately.</string>
+    <string name="guide_search_title">Search button</string>
+    <string name="guide_search_message">You can easily search title, author, and article content by keywords.</string>
+    <string name="guide_appIcon_title">App Icon button</string>
+    <string name="guide_appIcon_message">Press application icon button, the menu will slide-out automatically.</string>
+    <string name="guide_calendar_title">Calendar Gesture</string>
+    <string name="guide_calendar_message">Inside the cycle, slide from right to left will bring calendar out, you can pick any day you like and flip to it easily.</string>
+    <string name="guide_flip_title">Flip Gesture</string>
+    <string name="guide_flip_message">Inside the cycle, slide from bottom to top(or from top to bottom) will flip the page smoothly.</string>
+    
+    <string name="fontSize_test_text">St. Nicholas Church in Galway, Ireland, has both a long history and an active present. It’s the oldest church in Ireland, and it provides guidance in a very practical way. The church towers over the town, and its steeple is used by ships’ captains as a guide for navigating their way safely into Galway Bay. For centuries, this church has&#8230;</string>
+
+</resources>

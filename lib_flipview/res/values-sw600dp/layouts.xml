@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">true</bool>
+    <!-- 7” tablets -->
+    <string name="screenSize" translatable="false">values-sw600dp</string>
+</resources>

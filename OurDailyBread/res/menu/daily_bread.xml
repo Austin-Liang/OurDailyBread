@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/action_search"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Search"
+        android:actionViewClass="com.actionbarsherlock.widget.SearchView"
+        />
+    
+    <item
+    android:actionViewClass="com.altujen.android.odb.ActionSeparatorView"
+    android:orderInCategory="200"
+    android:showAsAction="always"
+    android:title="@null"/>
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/navigation_refresh"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:title="Refresh"
+        android:actionLayout="@layout/refresh" />
+    
+    <!--
+    		android:actionLayout="@layout/refresh" 
+     -->
+    
+    <!-- <item android:id="@+id/prepend1"
+        android:showAsAction="ifRoom"
+        android:title="@string/prepend"/>
+    
+    <item android:id="@+id/prepend2"
+        android:showAsAction="ifRoom"
+        android:title="@string/prepend"/>
+    
+    <item android:id="@+id/prepend3"
+        android:showAsAction="ifRoom"
+        android:title="@string/prepend"/>
+    
+    <item android:id="@+id/prepend4"
+        android:showAsAction="ifRoom"
+        android:title="@string/prepend"/> -->
+    
+    <!-- <SlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:handle="@+id/handle"
+        android:content="@+id/content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/handle"
+            android:text=""
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            />
+        <GridView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"   
+            android:columnWidth="60dp"  
+            android:gravity="center"  
+            android:horizontalSpacing="10dp"  
+            android:numColumns="auto_fit"  
+            android:padding="10dp"  
+            android:stretchMode="columnWidth"  
+            android:verticalSpacing="10dp"
+            />
+    </SlidingDrawer> -->
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">灵命日粮</string>
+    <string name="search_hint">输入关键词&#8230;</string>
+    <string name="rd_title">读　　经：</string>
+    <string name="annRd_title">全年读经：</string>
+    <string name="media_error">目前媒体无法使用&#8230;</string>
+    <string name="share_chooser">灵命日粮 - 请选择分享媒介</string>
+    <string name="about">关于</string>
+    <string name="about_msg">&lt;b>《灵命日粮》&lt;/b> 是由 RBC Ministries 所出版的灵修材料。
+        本软件中的所有灵修数据内容、来源皆为 RBC Ministries 所有，软件单纯撷取网页中的数据并将内容于智能型行动装置中呈现。
+        &lt;br>&lt;br>
+        因为老是被牧师念拿了灵命日粮结果都没看，所以才以此为契机撰写开发了本软件。希望和我有着相同困扰的朋友能够一起借着本软件来领受神的恩典与话语。</string>
+    <string name="btnText_ok">确定</string>
+    <string name="btnText_cancel">取消</string>
+    <string name="btnText_close">关闭</string>
+    <string name="exitMsg">离开《灵命日粮》？</string>
+    <string name="plzChoose">请选择</string>
+    <string name="no_more_data">已无更新数据！</string>
+    <string name="data_updated">数据已更新！</string>
+    <string name="dialog_title">请稍候</string>
+    <string name="dialog_msg">检查更新中&#8230;</string>
+    <string name="dialog_no_wifi_title">无可用网络！</string>
+    <string name="dialog_no_wifi_msg">请使用 wifi 或行动3G网络！</string>
+    <string name="dialog_no_wifi_btnText">设定</string>
+    <string name="dialog_no_internet_title">唉呦！</string>
+    <string name="dialog_no_internet_msg">请检查网络联机状态，再重新运行《灵命日粮》。</string>
+    <string name="internet_is_not_ready">网络尚未就绪！</string>
+    <string name="connection_interrupted">更新状态中断，请稍后再试！</string>
+    <string name="empty_data">Empty !</string>
+    <string name="read_more">&#8230;&lt;more></string>
+    <string name="read_more_at">Read more at : </string>
+    <string name="menu_lastMonth">上个月</string>
+    <string name="menu_nextMonth">下个月</string>
+    <string name="menu_setting">设定</string>
+    <string name="menu_language">语言</string>
+    <string name="menu_appGuide">使用导览</string>
+    <string name="menu_about">关于</string>
+    <string name="send_from">发送自</string>
+    <string name="like_app">推荐 !</string>
+    <string name="pick_date">请选择日期！</string>
+    
+    <string name="guide_refresh_title">更新按钮</string>
+    <string name="guide_refresh_message">立即检查数据更新。</string>
+    <string name="guide_search_title">搜寻按钮</string>
+    <string name="guide_search_message">以关键词搜寻标题、作者以及本文内容。</string>
+    <string name="guide_appIcon_title">App 图标按钮</string>
+    <string name="guide_appIcon_message">点击 App 图标按钮即可滑出功能菜单。</string>
+    <string name="guide_calendar_title">日历手势</string>
+    <string name="guide_calendar_message">在圆圈的范围内，由右至左滑动手势即可显示日历，挑选喜欢的日期即可自动快速翻页。</string>
+    <string name="guide_flip_title">翻页手势</string>
+    <string name="guide_flip_message">在圆圈的范围内，由下至上(或由上至下)滑动手势，即可流畅地进行翻页。</string>
+    
+    <string name="fontSize_test_text">位在爱尔兰戈尔韦的圣尼古拉斯教堂，有着悠久的历史，至今仍十分活跃。那是爱尔兰最古老的教堂，而且教堂还以一种非常实际的方式提供引导。原来这座教堂乃城镇中最高的建筑物，高耸的尖塔常被船长们用作导航指引，让船只安全地航入戈尔韦海湾。几世纪以来，这间教堂&#8230;</string>
+
+</resources>

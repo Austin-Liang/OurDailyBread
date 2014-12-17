@@ -1,0 +1,103 @@
+# view res/layout/abs__screen_action_bar.xml #generated:44
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:27
+# view res/layout/abs__screen_simple.xml #generated:32
+# view res/layout/abs__screen_simple_overlay_action_mode.xml #generated:27
+# view xlarge\res/layout-xlarge/abs__screen_action_bar.xml #generated:44
+# view xlarge\res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:25
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout { <init>(...); }
+
+# view large\res/layout-large/abs__action_mode_close_item.xml #generated:17
+# view res/layout/abs__action_mode_close_item.xml #generated:17
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abs__action_menu_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abs__popup_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:27
+# view res/layout/abs__screen_action_bar.xml #generated:51
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:30
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:53
+# view xlarge\res/layout-xlarge/abs__screen_action_bar.xml #generated:27
+# view xlarge\res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:28
+-keep class com.actionbarsherlock.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abs__action_mode_bar.xml #generated:19
+# view res/layout/abs__screen_action_bar.xml #generated:37
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:41
+# view xlarge\res/layout-xlarge/abs__screen_action_bar.xml #generated:37
+# view xlarge\res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:38
+-keep class com.actionbarsherlock.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:32
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:36
+# view xlarge\res/layout-xlarge/abs__screen_action_bar.xml #generated:32
+# view xlarge\res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:33
+-keep class com.actionbarsherlock.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abs__action_bar_home.xml #generated:17
+-keep class com.actionbarsherlock.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:40
+-keep class com.actionbarsherlock.internal.widget.CapitalizingButton { <init>(...); }
+
+# view res/layout/abs__activity_chooser_view.xml #generated:19
+-keep class com.actionbarsherlock.internal.widget.IcsLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_bar_tab.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abs__action_bar_tab_bar_view.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.TabsLinearLayout { <init>(...); }
+
+# view res/layout/abs__search_view.xml #generated:84
+-keep class com.actionbarsherlock.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.altujen.android.odb.DailyBreadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.altujen.android.odb.DailyBreadSettings { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.altujen.android.odb.DetailActivity { <init>(...); }
+
+# view res/layout/menu.xml #generated:2
+-keep class com.altujen.android.odb.MenuListFragment { <init>(...); }
+
+# view res/layout/showcase_view_template.xml #generated:3
+-keep class com.espian.showcaseview.ShowcaseView { <init>(...); }
+
+# view res/layout/slidingmenumain.xml #generated:2
+-keep class com.jeremyfeinstein.slidingmenu.lib.SlidingMenu { <init>(...); }
+
+# view res/layout/week.xml #generated:13
+# view res/layout/week.xml #generated:18
+# view res/layout/week.xml #generated:23
+# view res/layout/week.xml #generated:28
+# view res/layout/week.xml #generated:33
+# view res/layout/week.xml #generated:38
+# view res/layout/week.xml #generated:8
+-keep class com.squareup.timessquare.CalendarCellView { <init>(...); }
+
+# view res/layout/month.xml #generated:18
+-keep class com.squareup.timessquare.CalendarGridView { <init>(...); }
+
+# view res/layout/calendar_picker.xml #generated:7
+-keep class com.squareup.timessquare.CalendarPickerView { <init>(...); }
+
+# view res/layout/month.xml #generated:23
+# view res/layout/week.xml #generated:3
+-keep class com.squareup.timessquare.CalendarRowView { <init>(...); }
+
+# view res/layout/month.xml #generated:3
+-keep class com.squareup.timessquare.MonthView { <init>(...); }
+
+# view res/layout/activity_daily_bread.xml #generated:10
+-keep class se.emilsjolander.flipview.FlipView { <init>(...); }
+

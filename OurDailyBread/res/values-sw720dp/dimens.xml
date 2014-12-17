@@ -1,0 +1,29 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    -->
+    
+    <dimen name="txtSize_page_Auth">27sp</dimen>
+    <dimen name="txtSize_page_Title">33sp</dimen>
+    <dimen name="txtSize_page_Date">21sp</dimen>
+    <dimen name="txtSize_page_Story">27sp</dimen>
+    
+    <dimen name="txtSize_detail_Title">27sp</dimen>
+    <dimen name="txtSize_detail_Date">21sp</dimen>
+    <dimen name="txtSize_detail_Auth">21sp</dimen>
+    <dimen name="txtSize_detail_rd_title">21sp</dimen>
+    <dimen name="txtSize_detail_rd_text">21sp</dimen>
+    <dimen name="txtSize_detail_annRd_title">21sp</dimen>
+    <dimen name="txtSize_detail_annRd_text">21sp</dimen>
+    <dimen name="txtSize_detail_Story">27sp</dimen>
+    <dimen name="txtSize_detail_Poem">27sp</dimen>
+    <dimen name="txtSize_detail_Thought">27sp</dimen>
+    
+    <integer name="sizeXLarge">42</integer>
+    <integer name="sizeLarge">33</integer>
+    <integer name="sizeMedium">27</integer>
+    <integer name="sizeSmall">21</integer>
+
+</resources>

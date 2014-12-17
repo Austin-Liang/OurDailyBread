@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	http://stackoverflow.com/questions/1634252/how-to-make-a-smooth-image-rotation-in-android
+ -->
+<rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="358"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:repeatCount="infinite"
+    android:duration="1600" />
