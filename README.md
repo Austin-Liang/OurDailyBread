@@ -5,14 +5,19 @@ OurDailyBread
 
     1. ActionBarSherlock  by Jake Wharton
        http://actionbarsherlock.com/
+       
     2. android-FlipView  by Emil Sjölander
        https://github.com/emilsjolander/android-FlipView
+       
     3. NineOldAndroids  by Jake Wharton
        http://nineoldandroids.com/
+       
     4. ShowcaseView  by Arian van Putten
        https://github.com/arianvp/ShowcaseView
+       
     5. SlidingMenu  by Jeremy Feinstein
        https://github.com/jfeinstein10/SlidingMenu
+       
     6. android-times-square  by Jake Wharton
        https://github.com/square/android-times-square
 
