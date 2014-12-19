@@ -1,6 +1,11 @@
 OurDailyBread
 =============
 
+圖庫來源：
+
+    1. Subtle Patterns - Free textures for your next web project
+       http://subtlepatterns.com/
+
 專案使用到的元件庫清單：
 
     1. ActionBarSherlock  by Jake Wharton
