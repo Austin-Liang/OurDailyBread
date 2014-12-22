@@ -35,6 +35,7 @@
     <string name="menu_nextMonth">下個月</string>
     <string name="menu_setting">設定</string>
     <string name="menu_language">語言</string>
+    <string name="menu_fontSize">文字大小</string>
     <string name="menu_appGuide">使用導覽</string>
     <string name="menu_about">關於</string>
     <string name="send_from">發送自</string>
@@ -51,6 +52,9 @@
     <string name="guide_calendar_message">在圓圈的範圍內，由右至左滑動手勢即可顯示日曆，挑選喜歡的日期即可自動快速翻頁。</string>
     <string name="guide_flip_title">翻頁手勢</string>
     <string name="guide_flip_message">在圓圈的範圍內，由下至上(或由上至下)滑動手勢，即可流暢地進行翻頁。</string>
+    
+    <string name="audio_stream_zht">普通話(國語)</string>
+    <string name="audio_stream_zhy">廣東話</string>
     
     <string name="fontSize_test_text">位在愛爾蘭戈爾韋的聖尼古拉斯教堂，有著悠久的歷史，至今仍十分活躍。那是愛爾蘭最古老的教堂，而且教堂還以一種非常實際的方式提供引導。原來這座教堂乃城鎮中最高的建築物，高聳的尖塔常被船長們用作導航指引，讓船隻安全地航入戈爾韋海灣。幾世紀以來，這間教堂&#8230;</string>
 

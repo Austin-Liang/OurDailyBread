@@ -6,6 +6,9 @@
         <item>中国語（簡体字）(zhCN)</item>
         <item>英語(EN)</item>
         <item>日本語(JP)</item>
+        <item>ベトナム語(VN)</item>
+        <item>ドイツ語(DE)</item>
+        <item>ロシア語(RU)</item>
     </string-array>
     
     <string-array name="select_share_items">

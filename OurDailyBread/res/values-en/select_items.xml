@@ -6,6 +6,9 @@
         <item>Simplified-Chinese(zhCN)</item>
         <item>English(EN)</item>
         <item>Japanese(JP)</item>
+        <item>Vietnamese(VN)</item>
+        <item>German(DE)</item>
+        <item>Russian(RU)</item>
     </string-array>
     
     <string-array name="select_share_items">

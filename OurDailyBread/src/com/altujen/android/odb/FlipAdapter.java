@@ -315,45 +315,58 @@ public class FlipAdapter extends BaseAdapter implements OnClickListener {
 			imgRawUri = "";
 		}
 		
-		// set image visibility to invisible.
-		imgV.setVisibility(View.INVISIBLE);
-		
-		// keys must match regex [a-z0-9_-]{1,64}
-		String imgKey = Util.keyFilter(imgRawUri);
-		
-		if((this.DiskLruCache != null && !(this.DiskLruCache.isClosed())) && (imgKey != null && !(imgKey.equals("")))) {
-			// key is okay.
-			{   // DiskLruImageCache
-				if(this.DiskLruCache.containsKey(imgKey)) {
-					// already cached.
-					Bitmap mAuthor = this.DiskLruCache.getBitmap(imgKey);
-					// resize image.
-					Util.imageResize(imgV, mAuthor, intendedWidth);
-					
-					// Set fade-in animation.
-					Animation anim = AnimationUtils.loadAnimation(imgV.getContext(), R.anim.fade_in);
-					anim.reset();
-					// set image visibility to visible.
-					imgV.setVisibility(View.VISIBLE);
-					imgV.startAnimation(anim);
-					
-				} else {
-					// not cached.
-					// new a DownloadImageTask.
-					DownloadImageTask imgTask = new DownloadImageTask(imgV, this.DiskLruCache, intendedWidth);
-					imgTask.execute(imgRawUri, imgKey);
-					lst_Tasks.add(imgTask);
-				}
-			}
+		if(user_settings.getLanguageSettings() == EnumLang.VN || user_settings.getLanguageSettings() == EnumLang.DE) {
+			
+			// set image visibility to invisible.
+			imgV.setBackgroundResource(R.drawable.image_border_trans);
+			imgV.setVisibility(View.INVISIBLE);
+			
 		} else {
-			// use default image.
-			Util.imageResize(imgV, user_settings.getMissingAvatar(), intendedWidth);
-			// Set fade-in animation.
-			Animation anim = AnimationUtils.loadAnimation(imgV.getContext(), R.anim.fade_in);
-			anim.reset();
-			// set image visibility to visible.
-			imgV.setVisibility(View.VISIBLE);
-			imgV.startAnimation(anim);
+			
+			// set image visibility to invisible.
+			imgV.setBackgroundResource(R.drawable.image_border_trans);
+			imgV.setVisibility(View.INVISIBLE);
+			
+			// keys must match regex [a-z0-9_-]{1,64}
+			String imgKey = Util.keyFilter(imgRawUri);
+			
+			if((this.DiskLruCache != null && !(this.DiskLruCache.isClosed())) && (imgKey != null && !(imgKey.equals("")))) {
+				// key is okay.
+				{   // DiskLruImageCache
+					if(this.DiskLruCache.containsKey(imgKey)) {
+						// already cached.
+						Bitmap mAuthor = this.DiskLruCache.getBitmap(imgKey);
+						// resize image.
+						Util.imageResize(imgV, mAuthor, intendedWidth);
+						
+						// Set fade-in animation.
+						Animation anim = AnimationUtils.loadAnimation(imgV.getContext(), R.anim.fade_in);
+						anim.reset();
+						// set image visibility to visible.
+						imgV.setVisibility(View.VISIBLE);
+						imgV.setBackgroundResource(R.drawable.image_border);
+						imgV.startAnimation(anim);
+						
+					} else {
+						// not cached.
+						// new a DownloadImageTask.
+						DownloadImageTask imgTask = new DownloadImageTask(imgV, this.DiskLruCache, intendedWidth);
+						imgTask.execute(imgRawUri, imgKey);
+						lst_Tasks.add(imgTask);
+					}
+				}
+			} else {
+				// use default image.
+				Util.imageResize(imgV, user_settings.getMissingAvatar(), intendedWidth);
+				// Set fade-in animation.
+				Animation anim = AnimationUtils.loadAnimation(imgV.getContext(), R.anim.fade_in);
+				anim.reset();
+				// set image visibility to visible.
+				imgV.setVisibility(View.VISIBLE);
+				imgV.setBackgroundResource(R.drawable.image_border);
+				imgV.startAnimation(anim);
+			}
+			
 		}
 		
 	}
@@ -486,6 +499,7 @@ public class FlipAdapter extends BaseAdapter implements OnClickListener {
 				anim.reset();
 				// set image visibility to visible.
 				m_ImageView.setVisibility(View.VISIBLE);
+				m_ImageView.setBackgroundResource(R.drawable.image_border);
 				m_ImageView.startAnimation(anim);
 			}
 			

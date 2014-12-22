@@ -35,6 +35,7 @@
     <string name="menu_nextMonth">来月</string>
     <string name="menu_setting">設定</string>
     <string name="menu_language">言語</string>
+    <string name="menu_fontSize">フォントサイズ</string>
     <string name="menu_appGuide">ユーザーガイド</string>
     <string name="menu_about">About</string>
     <string name="send_from">送り先</string>
@@ -51,6 +52,9 @@
     <string name="guide_calendar_message">サークルの内側に右から左へスライドすると、カレンダーを呼び出す。お好きな日を選んで、快適にフリップすることができる。</string>
     <string name="guide_flip_title">フリップジェスチャー</string>
     <string name="guide_flip_message">サークルの内側に下から上へ(或いは上から下へ)スライドすると、フリップすることができる。</string>
+    
+    <string name="audio_stream_zht">null</string>
+    <string name="audio_stream_zhy">null</string>
     
     <string name="fontSize_test_text">アイルランドのゴールウェイにある聖ニコラス教会は、長い歴史を持ち、現在も生き生きと活動する教会です。アイルランドで一番古いその教会は、ある実用的な役割も果たしてきました。教会堂は市街地にそびえ立ち、その尖塔はゴールウェイ港に船を安全に導く目印として用いられています。この教会は何世紀もの間&#8230;</string>
 

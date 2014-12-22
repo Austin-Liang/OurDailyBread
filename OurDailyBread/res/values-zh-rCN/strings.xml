@@ -35,6 +35,7 @@
     <string name="menu_nextMonth">下个月</string>
     <string name="menu_setting">设定</string>
     <string name="menu_language">语言</string>
+    <string name="menu_fontSize">字体大小</string>
     <string name="menu_appGuide">使用导览</string>
     <string name="menu_about">关于</string>
     <string name="send_from">发送自</string>
@@ -51,6 +52,9 @@
     <string name="guide_calendar_message">在圆圈的范围内，由右至左滑动手势即可显示日历，挑选喜欢的日期即可自动快速翻页。</string>
     <string name="guide_flip_title">翻页手势</string>
     <string name="guide_flip_message">在圆圈的范围内，由下至上(或由上至下)滑动手势，即可流畅地进行翻页。</string>
+    
+    <string name="audio_stream_zht">普通话(国语)</string>
+    <string name="audio_stream_zhy">广东话</string>
     
     <string name="fontSize_test_text">位在爱尔兰戈尔韦的圣尼古拉斯教堂，有着悠久的历史，至今仍十分活跃。那是爱尔兰最古老的教堂，而且教堂还以一种非常实际的方式提供引导。原来这座教堂乃城镇中最高的建筑物，高耸的尖塔常被船长们用作导航指引，让船只安全地航入戈尔韦海湾。几世纪以来，这间教堂&#8230;</string>
 

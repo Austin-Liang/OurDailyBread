@@ -23,10 +23,6 @@ import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Configuration;
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.net.Uri;
@@ -38,7 +34,6 @@ import android.os.Message;
 import android.provider.Settings;
 import android.text.Html;
 import android.util.Log;
-import android.util.TypedValue;
 import android.view.Display;
 import android.view.KeyEvent;
 import android.view.View;
@@ -48,7 +43,6 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
@@ -793,6 +787,18 @@ public class DailyBreadActivity extends SlidingFragmentActivity implements FlipA
 										tempUserLang = EnumLang.JP;
 										break;
 										
+									case EnumLang.VN:
+										tempUserLang = EnumLang.VN;
+										break;
+										
+									case EnumLang.DE:
+										tempUserLang = EnumLang.DE;
+										break;
+										
+									case EnumLang.SU:
+										tempUserLang = EnumLang.SU;
+										break;
+										
 									}
 									
 								}
@@ -813,26 +819,26 @@ public class DailyBreadActivity extends SlidingFragmentActivity implements FlipA
 			
 			final View checkBoxView = View.inflate(this, R.layout.dialog_font_size, null);
 			checkBoxView.setMinimumWidth((int)(displayRectangle.width() * 0.85f));
-			checkBoxView.setMinimumHeight((int)(displayRectangle.height() * 0.8f));
+			checkBoxView.setMinimumHeight((int)(displayRectangle.height() * 0.65f));
 			final TextView tv = (TextView) checkBoxView.findViewById(R.id.txt_TestText);
-			redraw(tv, user_settings.getFontSize());
+			Util.redraw(tv, user_settings.getFontSize());
 			final SeekBar seek = (SeekBar) checkBoxView.findViewById(R.id.seekBar1);
 			seek.setProgress((user_settings.getFontSize() - 14));
 			seek.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
-
+	
 				@Override
 				public void onProgressChanged(SeekBar seekBar, int progress,
 						boolean fromUser) {
 					// TODO Auto-generated method stub
-					redraw(tv, (progress + 14));
+					Util.redraw(tv, (progress + 14));
 				}
-
+	
 				@Override
 				public void onStartTrackingTouch(SeekBar seekBar) {
 					// TODO Auto-generated method stub
 					
 				}
-
+	
 				@Override
 				public void onStopTrackingTouch(SeekBar seekBar) {
 					// TODO Auto-generated method stub
@@ -841,7 +847,7 @@ public class DailyBreadActivity extends SlidingFragmentActivity implements FlipA
 			new AlertDialog.Builder(this)
 			.setView(checkBoxView)
 			.setIcon(R.drawable.ic_menu_settings_holo_light)
-			.setTitle(R.string.menu_language)
+			.setTitle(R.string.menu_fontSize)
 			.setPositiveButton(R.string.btnText_ok,
 					new DialogInterface.OnClickListener() {
 				
@@ -1010,45 +1016,6 @@ public class DailyBreadActivity extends SlidingFragmentActivity implements FlipA
 		}
 		
 	}
-	
-	private static void redraw(final TextView tv, final int progress){
-		
-		tv.setTextSize(TypedValue.COMPLEX_UNIT_SP, progress);
-		
-		/*// The gesture threshold expressed in dip
-		final float GESTURE_THRESHOLD_DIP = 16.0f;
-		final float scale = iv.getContext().getResources().getDisplayMetrics().density;
-		int mGestureThreshold = (int) (GESTURE_THRESHOLD_DIP * size + 0.5f);
-		
-		Bitmap.Config conf = Bitmap.Config.ARGB_8888; // see other conf types
-        
-        Paint paint = new Paint();
-        paint.setColor(Color.BLACK);
-        paint.setStyle(Paint.Style.FILL);
-        paint.setStrokeWidth(10);
-        paint.setAntiAlias(true);
-        paint.setTextSize(mGestureThreshold);
-        
-        float blackTextWidth = paint.measureText("位在愛爾蘭戈爾韋的聖尼古拉斯教堂，有著悠久的歷史，至今仍十分活躍。那是愛爾蘭最古老的教堂，而且教堂還以一種非常實際的方式提供引導。原來這座教堂乃城鎮中最高的建築物，高聳的尖塔常被船長們用作導航指引，讓船隻安全地航入戈爾韋海灣。幾世紀以來，這間教堂...");
-        
-        Bitmap bmp = Bitmap.createBitmap((int)blackTextWidth, (int)blackTextWidth, conf); // this creates a MUTABLE bitmap
-        Canvas canvas = new Canvas(bmp);
-        //Draw the image bitmap into the cavas
-        canvas.drawBitmap(bmp, 0, 0, null);
-        canvas.drawColor(Color.TRANSPARENT);
-        canvas.save();
-        
-        float startPositionX = (canvas.getWidth() - blackTextWidth) / 2;
-        
-        //int xPos = (canvas.getWidth() / 2);
-        //int xPos = (int) ((canvas.getWidth() - paint.getTextSize() * Math.abs(1 / 2)) / 2);
-        int yPos = (int) ((canvas.getHeight() / 2) - ((paint.descent() + paint.ascent()) / 2)) ; 
-        
-        canvas.drawText("位在愛爾蘭戈爾韋的聖尼古拉斯教堂，有著悠久的歷史，至今仍十分活躍。那是愛爾蘭最古老的教堂，而且教堂還以一種非常實際的方式提供引導。原來這座教堂乃城鎮中最高的建築物，高聳的尖塔常被船長們用作導航指引，讓船隻安全地航入戈爾韋海灣。幾世紀以來，這間教堂...", startPositionX, yPos, paint);
-        canvas.restore();
-        
-        iv.setImageBitmap(bmp);*/
-	} 
 
 	// http://stackoverflow.com/a/151940/1482579
 	@Override

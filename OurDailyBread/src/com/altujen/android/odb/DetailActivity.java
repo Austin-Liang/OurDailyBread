@@ -1,6 +1,5 @@
 package com.altujen.android.odb;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -195,6 +194,7 @@ public class DetailActivity extends Activity implements OnClickListener, OnCheck
 		{
 			List<String[]> lstReplace = new ArrayList<String[]>();
 			lstReplace.add(new String[]{"<br \\/>", strBreakLine + strBreakLine});
+			lstReplace.add(new String[]{"\n", strBreakLine});
 			setText(txt_Story, odb.getStory(), lstReplace);
 		}
 		//txt_Story.setMovementMethod(new ScrollingMovementMethod());
@@ -210,7 +210,7 @@ public class DetailActivity extends Activity implements OnClickListener, OnCheck
 		//txt_Thought.setMovementMethod(new ScrollingMovementMethod());
 		
 		
-		if(user_settings.getLanguageSettings() == EnumLang.JP) {
+		if(user_settings.getLanguageSettings() == EnumLang.JP || user_settings.getLanguageSettings() == EnumLang.VN || user_settings.getLanguageSettings() == EnumLang.DE) {
 			// init view for JP.
 			layoutPlayer.setVisibility(View.GONE);
 			setText(txt_rd_text, odb.getRd_title());
@@ -276,6 +276,12 @@ public class DetailActivity extends Activity implements OnClickListener, OnCheck
 					seekBarProgress.setEnabled(false);
 					
 					mediaPlayer.prepareAsync();
+					
+					if(user_settings.getLanguageSettings() == EnumLang.zh_TW || user_settings.getLanguageSettings() == EnumLang.zh_CN) {
+						rbtn_zht.setEnabled(false);
+						rbtn_zhy.setEnabled(false);
+						rbg.setEnabled(false);
+					}
 					
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -858,6 +864,10 @@ public class DetailActivity extends Activity implements OnClickListener, OnCheck
 					seekBarProgress.setEnabled(false);
 					btn_Play.setImageResource(R.drawable.av_play);
 					mediaPlayer.prepareAsync();
+					
+					rbtn_zht.setEnabled(false);
+					rbtn_zhy.setEnabled(false);
+					rbg.setEnabled(false);
 					
 				} else {
 					

@@ -34,7 +34,7 @@ public class MenuListFragment extends ListFragment {
 		adapter.add(new SampleItem(R.string.menu_lastMonth, R.drawable.ic_find_previous_holo_light));
 		adapter.add(new SampleItem(R.string.menu_nextMonth, R.drawable.ic_find_next_holo_light));
 		adapter.add(new SampleItem(R.string.menu_language, R.drawable.location_web_site));
-		adapter.add(new SampleItem(R.string.menu_language, R.drawable.ic_menu_copy_holo_light));
+		adapter.add(new SampleItem(R.string.menu_fontSize, R.drawable.ic_menu_copy_holo_light));
 		adapter.add(new SampleItem(R.string.menu_appGuide, R.drawable.action_help));
 		adapter.add(new SampleItem(R.string.menu_about, R.drawable.hardware_phone));
 		
