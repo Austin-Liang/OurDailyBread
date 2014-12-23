@@ -1,31 +1,53 @@
+---
+Title: OurDailyBread
+App Ver.: 1.7.0.6
+Author: Austin Liang
+Android SDK: Revision 22.3
+JDK: 1.6.0_30
+Eclipse: Kepler SR1
+Target Sdk Ver.: Android 4.2.2(17)
+Min Sdk Ver.: Android 3.0(11)
+---
 OurDailyBread
 =============
+## Structure：
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/OurDailyBread.png "Optional title")
+=============
+## Project Properties：
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_001.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_002.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_003.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_004.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_005.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_006.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_007.png "Optional title")
+=============
+## Snapshots：
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_001.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_002.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_003.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_004.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_005.png "Optional title")
+![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_006.png "Optional title")
+=============
+### Image Source：
 
-圖庫來源：
+*    **[Subtle Patterns](http://subtlepatterns.com/)** - Free textures for your next web project
 
-    1. Subtle Patterns - Free textures for your next web project
-       http://subtlepatterns.com/
+### Library List：
 
-專案使用到的元件庫清單：
-
-    1. ActionBarSherlock  by Jake Wharton
-       http://actionbarsherlock.com/
+*    **[ActionBarSherlock](http://actionbarsherlock.com/)**  by Jake Wharton
        
-    2. android-FlipView  by Emil Sjölander
-       https://github.com/emilsjolander/android-FlipView
+*    **[android-FlipView](https://github.com/emilsjolander/android-FlipView)**  by Emil Sjölander
        
-    3. NineOldAndroids  by Jake Wharton
-       http://nineoldandroids.com/
+*    **[NineOldAndroids](http://nineoldandroids.com/)**  by Jake Wharton
        
-    4. ShowcaseView  by Arian van Putten
-       https://github.com/arianvp/ShowcaseView
+*    **[ShowcaseView](https://github.com/arianvp/ShowcaseView)**  by Arian van Putten
        
-    5. SlidingMenu  by Jeremy Feinstein
-       https://github.com/jfeinstein10/SlidingMenu
+*    **[SlidingMenu](https://github.com/jfeinstein10/SlidingMenu)**  by Jeremy Feinstein
        
-    6. android-times-square  by Jake Wharton
-       https://github.com/square/android-times-square
+*    **[android-times-square](https://github.com/square/android-times-square)**  by Jake Wharton
 
-特別感謝上述元件庫的創作者們，沒有他們就不會有這支 ODB App 的誕生！
+Special thanks to those creators on the list, without them this App were never to be born.
 
-元件庫皆以專案參考的形式 include 進來，這樣比較方便自行針對這些元件做客製調整。印象中，[android-FlipView] 及 [android-times-square] 這兩個元件有再修改過，所以會和作者原版分屬於不同的分支。(這也是為甚麼會選擇以多個專案的形式來發布 GitHub 的主要原因)
+The libraries that used by OurDailyBread App were directly included(referenced) as a full project(start with the prefix "lib_"). In this way, we can make our own customization much easier. [Project Properties](#Project Properties)
