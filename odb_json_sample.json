@@ -1,0 +1,28 @@
+// ******  PLEASE NOTE  ******
+// This is a sample json format that designed to be used for OurDailyBread Android App(https://github.com/Austin-Liang/OurDailyBread)
+// The data which used in the sample is OWNED BY RBC Ministries(http://odb.org/)
+// Please let me know if this sample make any violation of laws, rules or regulations, I will remove it immediately.
+// You can edit/modify this sample format to fit your needs under the MIT License.
+// ****************************
+
+[
+	{
+		"Order_WT":"20140201",
+		"Poem":"Sweet hour of prayer! Sweet hour of prayer!<br \/>That calls me from a world of care,<br \/>And bids me at my Father’s throne<br \/>Make all my wants and wishes known. ─Walford",
+		"Rd_uri":"http:\/\/mobile.biblegateway.com\/passage\/?search=1+Samuel+1%3A9-20",
+		"Rd_title":"1 Samuel 1:9-20",
+		"AnnRd_uri":"http:\/\/mobile.biblegateway.com\/passage\/?search=Exodus+27-28%3B+Matthew+21%3A1-22",
+		"Author_uri":"http:\/\/odb.org\/\/authors\/jenniferbschuldt",
+		"AuthorImg_uri":"http:\/\/cdn.odb.org\/files\/jschuldt.jpg",
+		"Mp3_uri":"http:\/\/cdn.rbc.org\/odb\/2014\/02\/odb-02-01-14.mp3",
+		"Author":"Jennifer Benson Schuldt",
+		"Title":"Heard By God",
+		"Story":"After reading several children’s books with my daughter, I told her that I was going to read a grown-up book for a while and then we would look at books together again. I opened the cover and began to read in silence. A few minutes later, she looked at me doubtfully and said, “Mommy, you aren’t really reading.” She assumed that since I wasn’t speaking, I wasn’t processing the words.<br \/>Like reading, prayer can be silent. Hannah, who longed for a child of her own, visited the temple and “spoke in her heart” as she prayed. Her lips were moving, but “her voice was not heard” (1 Sam. 1:13). Eli the priest saw but misunderstood what was happening. She explained, “I . . . have poured out my soul before the Lord” (v.15). God heard Hannah’s silent prayer request and gave her a son (v.20).<br \/>Since God searches our hearts and minds (Jer. 17:10), He sees and hears every prayer─even the ones that never escape our lips. His all-knowing nature makes it possible for us to pray with full confidence that He will hear and answer (Matt. 6:8,32). Because of this, we can continually praise God, ask Him for help, and thank Him for blessings─even when no one else can hear us.<br \/>",
+		"ODB_Uri":"http:\/\/odb.org\/2014\/02\/01\/heard-by-god\/",
+		"Date":"February 1, 2014",
+		"Rd_text":"Hannah spoke in her heart; . . . her voice was not heard. ─1 Samuel 1:13",
+		"Language":"2",
+		"Thought":"God fills our heart with peace when we pour out our heart to Him.",
+		"AnnRd_title":"Exodus 27-28; Matthew 21:1-22"
+	}
+]
