@@ -56,3 +56,6 @@ The libraries that used by OurDailyBread App were directly included(referenced) 
 
 You can check [Project Properties](#project-properties) section to see how the properties should be set up.
 
+
+Cheers.
+
