@@ -11,24 +11,24 @@ Min Sdk Ver.: Android 3.0(11)
 OurDailyBread
 =============
 ## Structure：
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/OurDailyBread.png "Optional title")
+![ODB Structure](https://dl.dropboxusercontent.com/u/39423116/odbImages/OurDailyBread.png "ODB Structure")
 =============
 ## Project Properties：
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_001.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_002.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_003.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_004.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_005.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_006.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_007.png "Optional title")
+![OurDailyBread Properties](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_001.png "OurDailyBread Properties")
+![lib_actionbarsherlock Properties](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_002.png "lib_actionbarsherlock Properties")
+![lib_flipview Properties](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_003.png "lib_flipview Properties")
+![lib_nineoldandroids Properties](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_004.png "lib_nineoldandroids Properties")
+![lib_showcaseview Properties](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_005.png "lib_showcaseview Properties")
+![lib_slidingmenu Properties](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_006.png "lib_slidingmenu Properties")
+![lib_timessquare Properties](https://dl.dropboxusercontent.com/u/39423116/odbImages/ProjProperties/odb_007.png "lib_timessquare Properties")
 =============
 ## Snapshots：
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_001.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_002.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_003.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_004.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_005.png "Optional title")
-![Alt text](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_006.png "Optional title")
+![Snapshots_001](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_001.png "Snapshots_001")
+![Snapshots_002](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_002.png "Snapshots_002")
+![Snapshots_003](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_003.png "Snapshots_003")
+![Snapshots_004](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_004.png "Snapshots_004")
+![Snapshots_005](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_005.png "Snapshots_005")
+![Snapshots_006](https://dl.dropboxusercontent.com/u/39423116/odbImages/en-US/odb_006.png "Snapshots_006")
 =============
 ### Image Source：
 
