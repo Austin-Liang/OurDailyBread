@@ -32,6 +32,8 @@ OurDailyBread
 =============
 ### Image Source：
 
+*    **[Google Developer Design Pack](https://developer.android.com/design/downloads/index.html)** 
+
 *    **[Subtle Patterns](http://subtlepatterns.com/)** - Free textures for your next web project
 
 ### Library List：
