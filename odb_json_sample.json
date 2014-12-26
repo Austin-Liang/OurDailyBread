@@ -1,9 +1,11 @@
-// ******  PLEASE NOTE  ******
-// This is a sample json format that designed to be used for OurDailyBread Android App(https://github.com/Austin-Liang/OurDailyBread)
-// The data which used in the sample is OWNED BY RBC Ministries(http://odb.org/)
+// **********  PLEASE NOTE  **********
+// This is a sample of json format that designed to be used for OurDailyBread 
+// Android App (https://github.com/Austin-Liang/OurDailyBread)
+// The data which used in the sample is OWNED BY RBC Ministries (http://odb.org/)
 // Please let me know if this sample make any violation of laws, rules or regulations, I will remove it immediately.
-// You can edit/modify this sample format to fit your needs under the MIT License.
-// ****************************
+// You should edit/modify this sample format to fit your needs under the MIT License.
+// Please read the LICENSE file and comply with those conditions/regulations.
+// ************************************
 
 [
 	{
