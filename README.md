@@ -1,6 +1,6 @@
 ---
 Title: OurDailyBread
-AppVer.: 1.7.0.6
+App Ver.: 1.7.0.6
 Author: Austin Liang
 Android SDK: Revision 22.3
 JDK: 1.6.0_30
@@ -8,6 +8,7 @@ Eclipse: Kepler SR1
 Target Sdk: Android 4.2.2(17)
 Min Sdk: Android 3.0(11)
 ---
+
 OurDailyBread
 =============
 ## Structure：
@@ -52,19 +53,19 @@ OurDailyBread
 
 =============
 
-       Special thanks to those creators on the list, without them this App were never to be born.
-       
-       The libraries that used by OurDailyBread App were directly included(referenced) as a full project(start with the prefix "lib_"). In this way, we can make our own customization much easier.
-       
-       You can check [Project Properties](#project-properties) section to see how the properties should be set up.
-       
-       
-       Cheers.
+Special thanks to those creators on the list, without them this App were never to be born.
+
+The libraries that used by OurDailyBread App were directly included(referenced) as a full project(start with the prefix "lib_"). In this way, we can make our own customization much easier.
+
+You can check [Project Properties](#project-properties) section to see how the properties should be set up.
+
+
+Cheers.
 
 =============
 
 ### LICENSE
--------
+=============
 
        The MIT License (MIT)
        
