@@ -5,8 +5,8 @@ Author: Austin Liang
 Android SDK: Revision 22.3
 JDK: 1.6.0_30
 Eclipse: Kepler SR1
-Target Sdk Ver.: Android 4.2.2(17)
-Min Sdk Ver.: Android 3.0(11)
+TargetSdkVer.: Android 4.2.2(17)
+MinSdkVer.: Android 3.0(11)
 ---
 OurDailyBread
 =============
@@ -52,6 +52,7 @@ OurDailyBread
 
 =============
 
+
 Special thanks to those creators on the list, without them this App were never to be born.
 
 The libraries that used by OurDailyBread App were directly included(referenced) as a full project(start with the prefix "lib_"). In this way, we can make our own customization much easier.
@@ -61,3 +62,33 @@ You can check [Project Properties](#project-properties) section to see how the p
 
 Cheers.
 
+
+=============
+
+### LICENSE
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Austin Liang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all 
+copies or substantial portions of the Software.
+
+2. Any person who obtaining a copy of this software and associated documentation 
+files (the "Software"), must not use the content material which owned by RBC Ministries, 
+unless you have granted permission from RBC Ministries to use them.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
