@@ -51,7 +51,6 @@ OurDailyBread
        
 *    **[android-times-square](https://github.com/square/android-times-square)**  by Jake Wharton
 
-=============
 
 Special thanks to those creators on the list, without them this App were never to be born.
 
@@ -62,10 +61,9 @@ You can check [Project Properties](#project-properties) section to see how the p
 
 Cheers.
 
-=============
 
-### LICENSE
-=============
+LICENSE
+-------
 
        The MIT License (MIT)
        
