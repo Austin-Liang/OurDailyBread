@@ -12,24 +12,24 @@ Min Sdk: Android 3.0(11)
 OurDailyBread
 =============
 ## Structure：
-![ODB Structure](https://www.dropbox.com/s/0vh0ihbrl8ldmmb/OurDailyBread.png?dl=0 "ODB Structure")
+![ODB Structure](https://tujen.files.wordpress.com/2018/03/ourdailybread.png "ODB Structure")
 =============
 ## Project Properties：
-![OurDailyBread Properties](https://www.dropbox.com/s/3olujrbwic18n9b/odb_001.png?dl=0 "OurDailyBread Properties")
-![lib_actionbarsherlock Properties](https://www.dropbox.com/s/07p16l05vym1ieo/odb_002.png?dl=0 "lib_actionbarsherlock Properties")
-![lib_flipview Properties](https://www.dropbox.com/s/tnm575h0qnbnjyx/odb_003.png?dl=0 "lib_flipview Properties")
-![lib_nineoldandroids Properties](https://www.dropbox.com/s/w4iijx9yb5xcz00/odb_004.png?dl=0 "lib_nineoldandroids Properties")
-![lib_showcaseview Properties](https://www.dropbox.com/s/yj0fnc7fgejdcmu/odb_005.png?dl=0 "lib_showcaseview Properties")
-![lib_slidingmenu Properties](https://www.dropbox.com/s/2g3rc10kirzsr0v/odb_006.png?dl=0 "lib_slidingmenu Properties")
-![lib_timessquare Properties](https://www.dropbox.com/s/besxiwb0me1r6o2/odb_007.png?dl=0 "lib_timessquare Properties")
+![OurDailyBread Properties](https://tujen.files.wordpress.com/2018/03/projodb_001.png "OurDailyBread Properties")
+![lib_actionbarsherlock Properties](https://tujen.files.wordpress.com/2018/03/projodb_002.png "lib_actionbarsherlock Properties")
+![lib_flipview Properties](https://tujen.files.wordpress.com/2018/03/projodb_003.png "lib_flipview Properties")
+![lib_nineoldandroids Properties](https://tujen.files.wordpress.com/2018/03/projodb_004.png "lib_nineoldandroids Properties")
+![lib_showcaseview Properties](https://tujen.files.wordpress.com/2018/03/projodb_005.png "lib_showcaseview Properties")
+![lib_slidingmenu Properties](https://tujen.files.wordpress.com/2018/03/projodb_006.png "lib_slidingmenu Properties")
+![lib_timessquare Properties](https://tujen.files.wordpress.com/2018/03/projodb_007.png "lib_timessquare Properties")
 =============
 ## Snapshots：
-![Snapshots_001](https://www.dropbox.com/s/dxih4t4q2ah3hqa/odb_001.png?dl=0 "Snapshots_001")
-![Snapshots_002](https://www.dropbox.com/s/nto9x2elnub53o8/odb_002.png?dl=0 "Snapshots_002")
-![Snapshots_003](https://www.dropbox.com/s/xkla27vg5d5sy7o/odb_003.png?dl=0 "Snapshots_003")
-![Snapshots_004](https://www.dropbox.com/s/j02b6ky5amydi5z/odb_004.png?dl=0 "Snapshots_004")
-![Snapshots_005](https://www.dropbox.com/s/9o543df39xuaxmj/odb_005.png?dl=0 "Snapshots_005")
-![Snapshots_006](https://www.dropbox.com/s/liv6ym2enokj52y/odb_006.png?dl=0 "Snapshots_006")
+![Snapshots_001](https://tujen.files.wordpress.com/2018/03/odb_001.png "Snapshots_001")
+![Snapshots_002](https://tujen.files.wordpress.com/2018/03/odb_002.png "Snapshots_002")
+![Snapshots_003](https://tujen.files.wordpress.com/2018/03/odb_003.png "Snapshots_003")
+![Snapshots_004](https://tujen.files.wordpress.com/2018/03/odb_004.png "Snapshots_004")
+![Snapshots_005](https://tujen.files.wordpress.com/2018/03/odb_005.png "Snapshots_005")
+![Snapshots_006](https://tujen.files.wordpress.com/2018/03/odb_006.png "Snapshots_006")
 =============
 ### Image Source：
 
